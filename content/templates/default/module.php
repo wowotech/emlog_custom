@@ -406,3 +406,15 @@ function blog_tool_ishome(){
     }
 }
 ?>
+<?php
+//blog：判断是否为“讨论区”分类
+function blog_is_bbs_sort($blogid){
+	global $CACHE;
+	$log_cache_sort = $CACHE->readCache('logsort');
+	if($log_cache_sort[$blogid]['name'] == "讨论区") {
+		return true;
+	} else {
+		return false;
+	}
+}
+?>
