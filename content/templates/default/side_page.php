@@ -1,6 +1,6 @@
 <?php 
 /**
- * 侧边栏
+ * 适用与新建页面的侧边栏
  */
 if(!defined('EMLOG_ROOT')) {exit('error!');} 
 ?>
@@ -12,11 +12,23 @@ foreach ($widgets as $val)
 {
 	$widget_title = @unserialize($options_cache['widget_title']);
 	$custom_widget = @unserialize($options_cache['custom_widget']);
-
-	// skip some widgets which not need
-	if(strpos($val, 'link') === 0)
+	
+	// skip some widgets which not need by page
+	if(strpos($val, 'sort') === 0)
 		continue;
-
+	if(strpos($val, 'twitter') === 0)
+		continue;
+	if(strpos($val, 'newcomm') === 0)
+		continue;
+	if(strpos($val, 'newlog') === 0)
+		continue;
+	if(strpos($val, 'hotlog') === 0)
+		continue;
+	if(strpos($val, 'random_log') === 0)
+		continue;
+	if(strpos($val, 'archive') === 0)
+		continue;
+		
 	if(strpos($val, 'custom_wg_') === 0)
 	{
 		$callback = 'widget_custom_text';

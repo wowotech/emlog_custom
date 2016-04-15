@@ -95,3 +95,4 @@ class Navi_Model {
 	}
 
 }
+	
