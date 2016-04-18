@@ -1,0 +1,26 @@
+﻿#########################
+# Code Base of this Mod #
+#########################
+The code is based on a tutorial published by Thunderseb on the French site "Le site du Zéro": http://www.siteduzero.com/tutoriel-3-34703-insertion-de-balises-dans-une-zone-de-texte.html
+
+####################
+# Custom icons set #
+####################
+The icons are based on the Tango icons set: http://tango.freedesktop.org/Tango_Icon_Library
+
+###############
+# ColorPicker #
+###############
+The colorpicker called "JSColor" is a simple & user-friendly color picker for HTML forms: http://jscolor.com/
+
+################
+# Translations #
+################
+ » Spanish translation: Javier Rivero (aka jarive) - https://fluxbb.org/forums/profile.php?id=55432
+ » German translation: Cyberman - http://fluxbb.org/forums/profile.php?id=17381
+ » Italian translation: Jack - https://fluxbb.org/forums/profile.php?id=56095
+ 
+###########################
+# Code syntax highlighter #
+###########################
+Prism is a new lightweight, extensible syntax highlighter, built with modern web standards in mind: http://prismjs.com/

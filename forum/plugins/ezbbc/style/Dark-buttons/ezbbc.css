@@ -1,0 +1,226 @@
+/* ****************** */
+/* Dark buttons style */
+/* ****************** */
+
+/* Toolbar style */
+/* ************* */
+
+/* Common styles */
+#ezbbctoolbar {
+        display: block;
+        position: relative;
+}
+
+#ezbbctoolbar a {
+	display: inline-block;
+	text-decoration: none;
+	margin: 1px;
+	width: 20px;
+	height: 20px;
+}
+
+#ezbbcsmiliesbar {
+    display: block;
+}
+
+#ezbbcsmiliesbar .smiley {
+	margin: 1px;
+}
+
+#ezbbctoolbar a:hover, #ezbbcsmiliesbar .smiley:hover {
+       cursor: pointer;
+}
+
+#ezbbctoolbar a span {
+	display: none;
+}
+
+/* Backgrounds for each button */
+#ezbbctoolbar a#bold {
+	background: url(images/toolbar.png) no-repeat 0 0;
+}
+#ezbbctoolbar a#underline {
+	background: url(images/toolbar.png) no-repeat -20px 0;
+}
+#ezbbctoolbar a#italic {
+	background: url(images/toolbar.png) no-repeat -40px 0;
+}
+#ezbbctoolbar a#strike {
+	background: url(images/toolbar.png) no-repeat -60px 0;
+}
+#ezbbctoolbar a#delete {
+	background: url(images/toolbar.png) no-repeat -80px 0;
+}
+#ezbbctoolbar a#insert {
+	background: url(images/toolbar.png) no-repeat -100px 0;
+}
+#ezbbctoolbar a#emphasis {
+	background: url(images/toolbar.png) no-repeat -120px 0;
+}
+#ezbbctoolbar a#color {
+	background: url(images/toolbar.png) no-repeat -140px 0;
+}
+#ezbbctoolbar a#heading {
+	background: url(images/toolbar.png) no-repeat -160px 0;
+}
+#ezbbctoolbar a#url {
+	background: url(images/toolbar.png) no-repeat -220px 0;
+}
+#ezbbctoolbar a#email {
+	background: url(images/toolbar.png) no-repeat -180px 0;
+}
+#ezbbctoolbar a#image {
+	background: url(images/toolbar.png) no-repeat -240px 0;
+}
+#ezbbctoolbar a#quote {
+	background: url(images/toolbar.png) no-repeat -200px 0;
+}
+#ezbbctoolbar a#code {
+	background: url(images/toolbar.png) no-repeat -260px 0;
+}
+#ezbbctoolbar a#ulist {
+	background: url(images/toolbar.png) no-repeat -280px 0;
+}
+#ezbbctoolbar a#olist {
+	background: url(images/toolbar.png) no-repeat -300px 0;
+}
+#ezbbctoolbar a#aolist {
+	background: url(images/toolbar.png) no-repeat -320px 0;
+}
+#ezbbctoolbar a#smiliesb {
+	background: url(images/toolbar.png) no-repeat -340px 0;
+}
+#ezbbctoolbar a#video {
+	background: url(images/toolbar.png) no-repeat -360px 0;
+}
+#ezbbctoolbar a#help {
+	background: url(images/toolbar.png) no-repeat -380px 0;
+}
+/* Hover behaviour */
+#ezbbctoolbar a:hover#bold {
+	background: url(images/toolbar.png) no-repeat 0 -20px;
+}
+#ezbbctoolbar a:hover#underline {
+	background: url(images/toolbar.png) no-repeat -20px -20px;
+}
+#ezbbctoolbar a:hover#italic {
+	background: url(images/toolbar.png) no-repeat -40px -20px;
+}
+#ezbbctoolbar a:hover#strike {
+	background: url(images/toolbar.png) no-repeat -60px -20px;
+}
+#ezbbctoolbar a:hover#delete {
+	background: url(images/toolbar.png) no-repeat -80px -20px;
+}
+#ezbbctoolbar a:hover#insert {
+	background: url(images/toolbar.png) no-repeat -100px -20px;
+}
+#ezbbctoolbar a:hover#emphasis {
+	background: url(images/toolbar.png) no-repeat -120px -20px;
+}
+#ezbbctoolbar a:hover#color {
+	background: url(images/toolbar.png) no-repeat -140px -20px;
+}
+#ezbbctoolbar a:hover#heading {
+	background: url(images/toolbar.png) no-repeat -160px -20px;
+}
+#ezbbctoolbar a:hover#url {
+	background: url(images/toolbar.png) no-repeat -220px -20px;
+}
+#ezbbctoolbar a:hover#email {
+	background: url(images/toolbar.png) no-repeat -180px -20px;
+}
+#ezbbctoolbar a:hover#image {
+	background: url(images/toolbar.png) no-repeat -240px -20px;
+}
+#ezbbctoolbar a:hover#quote {
+	background: url(images/toolbar.png) no-repeat -200px -20px;
+}
+#ezbbctoolbar a:hover#code {
+	background: url(images/toolbar.png) no-repeat -260px -20px;
+}
+#ezbbctoolbar a:hover#ulist {
+	background: url(images/toolbar.png) no-repeat -280px -20px;
+}
+#ezbbctoolbar a:hover#olist {
+	background: url(images/toolbar.png) no-repeat -300px -20px;
+}
+#ezbbctoolbar a:hover#aolist {
+	background: url(images/toolbar.png) no-repeat -320px -20px;
+}
+#ezbbctoolbar a:hover#smiliesb {
+	background: url(images/toolbar.png) no-repeat -340px -20px;
+}
+#ezbbctoolbar a:hover#video {
+	background: url(images/toolbar.png) no-repeat -360px -20px;
+}
+#ezbbctoolbar a:hover#help {
+	background: url(images/toolbar.png) no-repeat -380px -20px;
+}        
+
+/* Helpfile style */
+/* ************** */
+
+#ezbbc_help ul#menu {
+        float: right;
+        margin: 5px;
+        padding: 5px;
+        width: 20%;
+        font-size: 0.9em;
+        background: #FFF;
+        border: #000 solid 1px;
+        /* Rounded corners, shadow and opacity (css3) */
+	border-radius: 8px;
+	-o-border-radius: 8px;
+	-icab-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	box-shadow: 0 0 7px #BFBFBF;
+	-o-box-shadow: 0 0 7px #BFBFBF;
+	-icab-box-shadow: 0 0 7px #BFBFBF;
+	-khtml-box-shadow: 0 0 7px #BFBFBF;
+	-moz-box-shadow: 0 0 7px #BFBFBF;
+	-webkit-box-shadow: 0 0 7px #BFBFBF;
+        opacity: 0.9;
+}
+
+#ezbbc_help ul#menu li {
+        text-align: center;
+        list-style-type: none;
+}
+
+#ezbbc_help p {
+        margin: 5px 10px;
+        padding: 0;
+}
+
+#ezbbc_help table {
+        border-collapse: collapse;
+        margin: 5px auto;
+        padding: 0;
+        width: 90%;
+        background: #FFF;
+}
+
+#ezbbc_help td {
+        font-size: 0.9em;
+        border: #000 1px solid;
+        text-align: center;
+}
+
+#ezbbc_help th {
+        border: #000 1px solid;
+		background: #DDD;
+        font-size: 0.8em;
+        width: 15%;
+}
+
+#ezbbc_help .button {
+	vertical-align: middle;	
+}
+
+#ezbbc_help code {
+        color: #FFF;
+	background: #C4C2C2;   	
+}

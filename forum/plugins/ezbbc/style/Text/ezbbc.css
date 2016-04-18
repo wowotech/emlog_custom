@@ -1,0 +1,163 @@
+/* ********************* */
+/* Default buttons style */
+/* ********************* */
+
+/* Toolbar style */
+/* ************* */
+
+/* Common styles */
+#ezbbctoolbar {
+        display: block;
+        position: relative;
+}
+
+#ezbbctoolbar a {
+    display: inline-block;
+	text-decoration: none;
+	color: black;
+	border: grey solid 1px;
+	background: #cfcfcf;
+	background: -webkit-gradient(linear, bottom, top, from(#cfcfcf) to(#FFF));
+	background: -webkit-linear-gradient(bottom, #cfcfcf, #FFF);
+	background: -moz-linear-gradient(bottom, #cfcfcf, #FFF);
+	background: -ms-linear-gradient(bottom, #cfcfcf, #FFF);
+	background: -o-linear-gradient(bottom, #cfcfcf, #FFF);
+	background: linear-gradient(bottom, #cfcfcf, #FFF);
+	margin: 2px;
+	padding: 0 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-kthml-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+#ezbbctoolbar a:hover {
+    color: white;
+	border: black solid 1px;
+	background: grey;
+}
+ 
+/* The smilies */
+#ezbbcsmiliesbar {
+    display: block;
+}
+
+#ezbbcsmiliesbar .smiley {
+    display: inline-block;
+	text-decoration: none;
+	border: grey solid 1px;
+	background: white;
+	margin: 2px;
+	padding: 1px 5px;
+	border: grey solid 1px;
+	background: #cfcfcf;
+	background: -webkit-gradient(linear, bottom, top, from(#cfcfcf) to(#FFF));
+	background: -webkit-linear-gradient(bottom, #cfcfcf, #FFF);
+	background: -moz-linear-gradient(bottom, #cfcfcf, #FFF);
+	background: -ms-linear-gradient(bottom, #cfcfcf, #FFF);
+	background: -o-linear-gradient(bottom, #cfcfcf, #FFF);
+	background: linear-gradient(bottom, #cfcfcf, #FFF);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-kthml-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+#ezbbcsmiliesbar .smiley:hover {
+    cursor: pointer;
+	border: black solid 1px;
+	background: grey;
+}
+
+#ezbbctoolbar a.toolbar_help {
+        
+}
+        
+
+/* Helpfile style */
+/* ************** */
+
+#ezbbc_help ul#menu {
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    width: 20%;
+    font-size: 0.9em;
+    background: #FFF;
+    border: #000 solid 1px;
+    /* Rounded corners, shadow and opacity (css3) */
+	border-radius: 8px;
+	-o-border-radius: 8px;
+	-icab-border-radius: 8px;
+	-khtml-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	box-shadow: 0 0 7px #BFBFBF;
+	-o-box-shadow: 0 0 7px #BFBFBF;
+	-icab-box-shadow: 0 0 7px #BFBFBF;
+	-khtml-box-shadow: 0 0 7px #BFBFBF;
+	-moz-box-shadow: 0 0 7px #BFBFBF;
+	-webkit-box-shadow: 0 0 7px #BFBFBF;
+        opacity: 0.9;
+}
+
+#ezbbc_help ul#menu li {
+    text-align: center;
+    list-style-type: none;
+}
+
+#ezbbc_help p {
+    margin: 5px 10px;
+    padding: 0;
+}
+
+#ezbbc_help table {
+        border-collapse: collapse;
+        margin: 5px auto;
+        padding: 0;
+        width: 90%;
+        background: #FFF;
+}
+
+#ezbbc_help td {
+        font-size: 0.9em;
+        border: #000 1px solid;
+        text-align: center;
+}
+
+#ezbbc_help th {
+        border: #000 1px solid;
+		background: #DDD;
+        font-size: 0.8em;
+        width: 15%;
+}
+
+#ezbbc_help .button {
+	vertical-align: middle;	
+}
+
+#ezbbc_help span {
+	color: black;
+	border: grey solid 1px;
+	background: #cfcfcf;
+	background: -webkit-gradient(linear, bottom, top, from(#cfcfcf) to(#FFF));
+	background: -webkit-linear-gradient(bottom, #cfcfcf, #FFF);
+	background: -moz-linear-gradient(bottom, #cfcfcf, #FFF);
+	background: -ms-linear-gradient(bottom, #cfcfcf, #FFF);
+	background: -o-linear-gradient(bottom, #cfcfcf, #FFF);
+	background: linear-gradient(bottom, #cfcfcf, #FFF);
+	margin: 2px;
+	padding: 0 5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-kthml-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+#ezbbc_help code {
+        color: #FFF;
+	background: #C4C2C2;   	
+}
