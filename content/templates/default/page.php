@@ -13,6 +13,6 @@ if(!defined('EMLOG_ROOT')) {exit('error!');}
 	<div style="clear:both;"></div>
 </div><!--end #contentleft-->
 <?php
- include View::getView('side_page');
+ include View::getView('side');
  include View::getView('footer');
 ?>

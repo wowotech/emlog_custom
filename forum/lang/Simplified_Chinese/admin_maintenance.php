@@ -1,0 +1,40 @@
+<?php
+
+// Language definitions used in admin_maintenance.php
+$lang_admin_maintenance = array(
+
+'Maintenance head'				=>	'论坛维护',
+'Rebuild index subhead'			=>	'重建搜索索引',
+'Rebuild index info'			=>	'如果您在数据库中手动添加，编辑或移除了帖子或者论坛的搜索出现了问题，您应该重建搜索索引。为了获得最佳性能，在重建索引前您应该将论坛设置为%s。<strong>重建索引可能会需要较长时间并且重建过程会加重服务器负载！</strong>',
+'Posts per cycle label'			=>	'每周期处理帖子',
+'Posts per cycle help'			=>	'每页面处理的帖子数量。例如，填写300时，每处理三百个帖子将会自动刷新页面。这样做是为了防止在重建索引过程中出现脚本超时。',
+'Starting post label'			=>	'起始帖子的ID',
+'Starting post help'			=>	'要重建索引的起始帖子的ID。默认是从数据库中存在的第一个帖子开始。一般您不需要修改。',
+'Empty index label'				=>	'清空索引',
+'Empty index help'				=>	'若您准备在重建索引前清空搜索索引请勾选此项(参见下文)。',
+'Rebuild completed info'		=>	'一旦该过程结束，您将被重定向回此页面。强烈建议您在操作过程中开启浏览器的JavaScript功能(以使一个周期完成后能够自动重定向)。如果重建过程被迫中止，您也可以记下已处理的最后一个帖子的ID然后将“起始帖子的ID”填写为该ID+1再继续建立索引(此时不得勾选“清空索引”选项)。',
+'Rebuild index'					=>	'重建索引',
+'Rebuilding search index'		=>	'重建搜索索引',
+'Rebuilding index info'			=>	'正在重建索引。正是喝咖啡的好时机 :-)',
+'Processing post'				=>	'正在处理帖子 <strong>%s</strong> …',
+'Click here'					=>	'点击这里',
+'Javascript redirect failed'	=>	'JavaScript重定向不成功。 %s 继续 …',
+'Posts must be integer message'	=>	'每个周期的帖子数必须定义为正整数。',
+'Days must be integer message'	=>	'清理设置中的旧帖时限必须为一个正整数值。',
+'No old topics message'			=>	'未找到%s天前的主题。请调小“旧帖时限”的数值后重试。',
+'Posts pruned redirect'			=>	'帖子清理成功。正在跳转 …',
+'Prune head'					=>	'清理',
+'Prune subhead'					=>	'清理旧帖子',
+'Days old label'				=>	'旧帖时限',
+'Days old help'					=>	'填写数字以指定需要清理多少天之前的“旧”帖子。例如：如果您填写30，那么所有近30天内未发表更新的主题将被删除。',
+'Prune sticky label'			=>	'清理置顶主题',
+'Prune sticky help'				=>	'允许该项后置顶主题也将被按规则清理。',
+'Prune from label'				=>	'清理指定版块',
+'All forums'					=>	'所有版块',
+'Prune from help'				=>	'您要清理哪个版块的帖子。',
+'Prune info'					=>	'请谨慎使用该功能。<strong>帖子清理不可恢复。</strong>为了获得最佳性能，运行清理时您应该将论坛设置为%s。',
+'Confirm prune subhead'			=>	'确认清理帖子',
+'Confirm prune info'			=>	'您确信要清理所有 %s 天之前 %s 的主题吗(%s 个主题)。',
+'Confirm prune warn'			=>	'警告！清理操作将会永久删除它们。',
+
+);

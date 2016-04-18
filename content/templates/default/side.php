@@ -13,10 +13,6 @@ foreach ($widgets as $val)
 	$widget_title = @unserialize($options_cache['widget_title']);
 	$custom_widget = @unserialize($options_cache['custom_widget']);
 
-	// skip some widgets which not need
-	if(strpos($val, 'link') === 0)
-		continue;
-
 	if(strpos($val, 'custom_wg_') === 0)
 	{
 		$callback = 'widget_custom_text';

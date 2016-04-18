@@ -207,7 +207,7 @@ function widget_custom_text($title, $content){ ?>
 function widget_link($title){
 	global $CACHE; 
 	$link_cache = $CACHE->readCache('link');
-    //if (!blog_tool_ishome()) return;#只在首页显示友链去掉双斜杠注释即可
+	if (!blog_tool_ishome()) return;#只在首页显示友链去掉双斜杠注释即可
 	?>
 	<li>
 	<h3><span><?php echo $title; ?></span></h3>
@@ -399,7 +399,7 @@ function blog_comments_post($logid,$ckname,$ckmail,$ckurl,$verifyCode,$allow_rem
 <?php
 //blog-tool:判断是否是首页
 function blog_tool_ishome(){
-    if (BLOG_URL . trim(Dispatcher::setPath(), '/') == BLOG_URL){
+    if('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] == BLOG_URL){
         return true;
     } else {
         return FALSE;
@@ -409,7 +409,7 @@ function blog_tool_ishome(){
 <?php
 //blog：判断是否为“讨论区”分类
 function blog_is_bbs_sort($blogid){
-	global $CACHE;
+	global $CACHE; 
 	$log_cache_sort = $CACHE->readCache('logsort');
 	if($log_cache_sort[$blogid]['name'] == "讨论区") {
 		return true;

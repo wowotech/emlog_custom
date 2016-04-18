@@ -6,13 +6,7 @@ if(!defined('EMLOG_ROOT')) {exit('error!');}
 ?>
 <div id="content">
 <div id="contentleft">
-
-<?php if('http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'] == BLOG_URL): ?>
-<?php include View::getView('home'); ?>
-<?php else: ?>
-
 <?php doAction('index_loglist_top'); ?>
-
 <?php 
 if (!empty($logs)):
 foreach($logs as $value): 
@@ -46,4 +40,3 @@ else:
  include View::getView('side');
  include View::getView('footer');
 ?>
-<?php endif;?>
