@@ -11,7 +11,7 @@
 <form name="f" method="post" action="./index.php?action=login">
 <div class="login-main">
 	<div class="login-top"></div>
-	<div class="login-logo"><a href="http://www.emlog.net" target="_blank"><img src="./views/images/login_logo.png" alt="emlog" width="294" height="68" /></a></div>
+	<div class="login-logo"><a href="http://www.wowotech.net" target="_blank"><img src="./views/images/login_logo.png" alt="wowotech" width="294" height="68" /></a></div>
 	<div class="login-input">
 		<span>用户名</span>
 		<div><input type="text" name="user" id="user" /></div>
